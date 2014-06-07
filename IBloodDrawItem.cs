@@ -1,0 +1,4 @@
+﻿public interface IBloodDrawItem : IInventoryItem
+{
+}
+

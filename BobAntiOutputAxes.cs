@@ -1,0 +1,34 @@
+﻿using System;
+
+public enum BobAntiOutputAxes
+{
+    Default = 0,
+    XXX = 0x15,
+    XXY = 0x25,
+    XXZ = 0x35,
+    XYX = 0x19,
+    XYY = 0x29,
+    XYZ = 0x39,
+    XZX = 0x1d,
+    XZY = 0x2d,
+    XZZ = 0x3d,
+    YXX = 0x16,
+    YXY = 0x26,
+    YXZ = 0x36,
+    YYX = 0x1a,
+    YYY = 0x2a,
+    YYZ = 0x3a,
+    YZX = 30,
+    YZY = 0x2e,
+    YZZ = 0x3e,
+    ZXX = 0x17,
+    ZXY = 0x27,
+    ZXZ = 0x37,
+    ZYX = 0x1b,
+    ZYY = 0x2b,
+    ZYZ = 0x3b,
+    ZZX = 0x1f,
+    ZZY = 0x2f,
+    ZZZ = 0x3f
+}
+
